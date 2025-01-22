@@ -1,4 +1,7 @@
-# Split Timeline into shifts
+---
+layout: page
+title: Split Timeline into shifts
+---
 
 ## Introduction
 The Power BI report and Power Query M code demonstrates how to split time data into days and shifts. In the example provided, the data is split into 3 shifts and each day starts at 6am. This ensures that data, such as duration between start and end times, is attributed accurately to each day and shift.
