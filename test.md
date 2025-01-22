@@ -183,7 +183,7 @@ WHERE
 ```
 #### 3. EventStartEnd_CTE
 Determine the Start and End datetimes for each event within a shift.
-```tsql
+```sql
 , EventStartEnd_CTE as (
 SELECT 
     *
