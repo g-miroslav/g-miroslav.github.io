@@ -57,13 +57,13 @@ social-network-links:
 #  whatsapp: phonenumber
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
+  linkedin: miroslav-gencur
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
+#  stackoverflow: "0000000/username"
+#  snapchat: username
+#  instagram: username
 #  spotify: yourname
-#  telephone: +14159998888
+#  telephone: phonenumber
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -75,7 +75,7 @@ social-network-links:
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
-#  hackerrank: yourname
+  hackerrank: miroslavgencur
 #  gitlab: yourname
 #  itchio: yourname
 #  untappd: yourname
