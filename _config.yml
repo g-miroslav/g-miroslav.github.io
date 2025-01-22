@@ -263,6 +263,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+gems:
+  - jekyll-spaceship
 
 kramdown:
   input: GFM
