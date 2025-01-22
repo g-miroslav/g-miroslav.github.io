@@ -131,7 +131,7 @@ in
 
 #### 1. ShiftBoundaries_CTE
 Identify the boudaries of shifts for each event. The `ROW_NUMBER` function creates a unique ID for each row that is used in the following CTE.
-```tsql
+```sql
 WITH ShiftBoundaries_CTE as (
 SELECT
     ROW_NUMBER() OVER (ORDER BY DEVICE_ID, tStart) as ID 
@@ -157,7 +157,7 @@ FROM
 ```
 #### 2. Recursive_CTE
 Split each event into individual shifts using a recursive CTE.
-```tsql
+```sql
 , Recursive_CTE as (
 SELECT
     *
@@ -195,7 +195,7 @@ FROM
 ```
 #### 4. Final output table
 Create duration (hours), date, and shift number for each event.
-```tsql
+```sql
 SELECT
     DEVICE_ID
     , STATUS_ID
