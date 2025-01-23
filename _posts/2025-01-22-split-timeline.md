@@ -2,9 +2,9 @@
 layout: post
 title: Split timeline into shifts
 subtitle: Using Power BI, SQL, and Qlik Sense!
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+cover-img: /assets/img/timeline-background.png
+thumbnail-img: /assets/img/gantt-chart.png
+share-img: /assets/img/path.png
 gh-repo: username/repo
 tags: [Power BI, SQL, Qlik Sense]
 comments: true
