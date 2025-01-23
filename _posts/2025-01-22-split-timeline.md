@@ -53,14 +53,14 @@ The Power BI report and Power Query M code demonstrates how to split time data i
 <details>
 
 #### 1. Load Data
-This step references previous power query section where the data is loaded from a csv file.
-```m
+This step references previous power query section where the data is loaded from a csv.
+```fsharp
 let
     Source = #"Device Status (Raw Data)",
 ```
 #### 2. Add Total Shift Start
 Identify the start of the first shift associated with each event.
-```m
+```fsharp
 #"Added TotalShiftStart" = Table.AddColumn(Source, "TotalShiftStart", each 
     let result =
         if varStartTime >= #time(6, 0, 0) and varStartTime <#time(14, 0, 0) then #duration(0, 6, 0, 0)
@@ -76,7 +76,7 @@ Identify the start of the first shift associated with each event.
 ```
 #### 3. Add Total Shift End
 Identify the end of the last shift associated with each event.
-```m
+```fsharp
 #"Added TotalShiftEnd" = Table.AddColumn(#"Added TotalShiftStart", "TotalShiftEnd", each 
     let result =
         if varEndTime >= #time(6, 0, 0) and varEndTime < #time(14, 0, 0) then #duration(0, 14, 0, 0)
@@ -92,7 +92,7 @@ Identify the end of the last shift associated with each event.
 ```
 #### 4. Split Data into 3 shifts
 This step creates a list for each row.
-```m
+```fsharp
 #"Added ShiftStart" = Table.AddColumn(#"Added TotalShiftEnd", "ShiftStart", each 
         List.DateTimes(
             [TotalShiftStart],
@@ -103,36 +103,36 @@ This step creates a list for each row.
 ```
 #### 5. Expand the lists
 Expand the lists into rows & change the data type to `datetime`.
-```m
+```fsharp
 #"Expanded ShiftStart" = Table.ExpandListColumn(#"Added ShiftStart", "ShiftStart"),
 #"Changed ShiftStart Type" = Table.TransformColumnTypes(#"Expanded ShiftStart",{{"ShiftStart", type datetime}}),
 ```
 #### 6. Add Shift End
 Calculate the end of each shift.
-```m
+```fsharp
 #"Added ShiftEnd" = Table.AddColumn(#"Changed ShiftStart Type", "ShiftEnd", each
         [ShiftStart] + #duration(0, 8, 0, 0), type datetime
     ),
 ```
 #### 7. Add Start and End
 Determine the start and end of each event within a shift.
-```m
+```fsharp
 #"Added Start" = Table.AddColumn(#"Added ShiftEnd", "Start", each List.Max({[tStart], [ShiftStart]}), type datetime),
 #"Added End" = Table.AddColumn(#"Added Start", "End", each List.Min({[tEnd], [ShiftEnd]}), type datetime),
 ```
 #### 8. Calculate Duration
 Duration is the difference between `Start` and `End` in hours.
-```m
+```fsharp
 #"Added Duration" = Table.AddColumn(#"Added End", "Duration", each Duration.TotalHours([End] - [Start]), type number),
 ```
 #### 9. Add Date
 Since each starts at 6am, a date column is created from the ShiftStart column. This can be linked to a Calendar table.
-```m
+```fsharp
 #"Inserted Date" = Table.AddColumn(#"Added Duration", "Date", each DateTime.Date([ShiftStart]), type date),
 ```
 #### 10. Add Shift Number
 Determine the shift number based on start time of shifts.
-```m
+```fsharp
 #"Added ShiftNumber" = Table.AddColumn(#"Inserted Date", "ShiftNumber", each 
     let result =
         if varShiftStart = #time(6, 0, 0) then 1
@@ -147,7 +147,7 @@ Determine the shift number based on start time of shifts.
 ```
 #### 11. End of M code
 Output the result in the last step.
-```
+```fsharp
 in
     #"Added ShiftNumber"
 ```
