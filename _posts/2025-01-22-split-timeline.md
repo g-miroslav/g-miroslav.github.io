@@ -53,6 +53,7 @@ The Power BI report and Power Query M code demonstrates how to split time data i
 <details>
 
 #### 1. Load Data
+This step references previous power query section where the data is loaded from a csv file.
 ```m
 let
     Source = #"Device Status (Raw Data)",
@@ -100,27 +101,27 @@ This step creates a list for each row.
         )
     ),
 ```
-##### List.DateTimes syntax:
-```m
-List.DateTimes(start as datetime, count as number, step as duration) as list
-```
-#### 5. Expand the lists into rows & change to datetime
+#### 5. Expand the lists
+Expand the lists into rows & change the data type to `datetime`.
 ```m
 #"Expanded ShiftStart" = Table.ExpandListColumn(#"Added ShiftStart", "ShiftStart"),
 #"Changed ShiftStart Type" = Table.TransformColumnTypes(#"Expanded ShiftStart",{{"ShiftStart", type datetime}}),
 ```
 #### 6. Add Shift End
+Calculate the end of each shift.
 ```m
 #"Added ShiftEnd" = Table.AddColumn(#"Changed ShiftStart Type", "ShiftEnd", each
         [ShiftStart] + #duration(0, 8, 0, 0), type datetime
     ),
 ```
 #### 7. Add Start and End
+Determine the start and end of each event within a shift.
 ```m
 #"Added Start" = Table.AddColumn(#"Added ShiftEnd", "Start", each List.Max({[tStart], [ShiftStart]}), type datetime),
 #"Added End" = Table.AddColumn(#"Added Start", "End", each List.Min({[tEnd], [ShiftEnd]}), type datetime),
 ```
 #### 8. Calculate Duration
+Duration is the difference between `Start` and `End` in hours.
 ```m
 #"Added Duration" = Table.AddColumn(#"Added End", "Duration", each Duration.TotalHours([End] - [Start]), type number),
 ```
@@ -130,6 +131,7 @@ Since each starts at 6am, a date column is created from the ShiftStart column. T
 #"Inserted Date" = Table.AddColumn(#"Added Duration", "Date", each DateTime.Date([ShiftStart]), type date),
 ```
 #### 10. Add Shift Number
+Determine the shift number based on start time of shifts.
 ```m
 #"Added ShiftNumber" = Table.AddColumn(#"Inserted Date", "ShiftNumber", each 
     let result =
@@ -144,6 +146,7 @@ Since each starts at 6am, a date column is created from the ShiftStart column. T
     )
 ```
 #### 11. End of M code
+Output the result in the last step.
 ```
 in
     #"Added ShiftNumber"
