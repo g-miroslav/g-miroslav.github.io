@@ -257,7 +257,7 @@ Qlik Sense script was adapted from an answer by **Swuehl** in the Qlik Community
 	
 #### 1. Load Data
 Load data from the csv or another data source.
-```text
+```sql
 Input:
 LOAD
     DEVICE_ID,
@@ -269,7 +269,7 @@ LOAD
 ```
 #### 2. Identify Shift boundaries
 Identify the boudaries of shifts for each event.
-```text
+```sql
 ShiftBoundaries:
 LOAD
     *,
@@ -279,7 +279,7 @@ Resident Input;
 ```
 #### 3. Split into 3 shifts
 `WHILE` statement is used to split events into 3 shifts.
-```text
+```sql
 LOAD
     *,
     Timestamp(TotalShiftStart + (IterNo() - 1) * MakeTime(8)) as ShiftStart,
@@ -289,7 +289,7 @@ WHILE TotalShiftStart + IterNo() * MakeTime(8) <= TotalShiftEnd;
 ```
 #### 4. Start and End
 Determine the Start and End datetimes for each event within a shift.
-```text
+```sql
 LOAD
     *,
     If(tStart > ShiftStart, tStart, ShiftStart) as Start,
@@ -297,7 +297,7 @@ LOAD
 ```
 #### 5. Duration, Shift, Date
 Create duration (hours), date, and shift number for each event.
-```text
+```sql
 LOAD
     *,
     Interval(End - Start) * 24 as Duration,
@@ -306,7 +306,7 @@ LOAD
 ```
 #### 6. Remove redundant tables
 All redundant tables must be dropped; otherwise, Qlik leaves them in the data model.
-```text
+```sql
 DROP TABLE Input;
 DROP TABLE ShiftBoundaries;
 ```
