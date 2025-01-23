@@ -20,8 +20,8 @@ author: Miroslav Gencur
 ###############################################
 
 navbar-links:
+  Home: "https://g-miroslav.github.io/"
   About Me: "aboutme"
-  Author's home: "https://g-miroslav.github.io/"
 
 ################
 # --- Logo --- #
