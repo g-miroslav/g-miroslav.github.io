@@ -47,8 +47,8 @@ The Power BI report and Power Query M code demonstrates how to split time data i
 | 21 | 05 | 2023-02-14 06:00:00 | 2023-02-14 08:39:10 | 2.65 | 1 |
     
 ## Power Query M
-- [Power Query M code](Power_Query_M_Code.txt)
-- [Power BI report](link_to_Power_BI_report)
+- [Power Query M code](https://github.com/g-miroslav/Split_Timeline/blob/c6f41718cb164b311566110e07c54eb786b3dcce/Power_Query_M_Code.txt)
+- [Power BI report](https://github.com/g-miroslav/Split_Timeline/blob/c6f41718cb164b311566110e07c54eb786b3dcce/Split_Timeline.pbix)
 
 <details>
 
@@ -154,7 +154,7 @@ in
 </details>
 
 ## T-SQL
-- [T-SQL query](Split_Timeline.sql)
+- [T-SQL query](https://github.com/g-miroslav/Split_Timeline/blob/c6f41718cb164b311566110e07c54eb786b3dcce/Split_Timeline.sql)
 
 <details>
 
@@ -249,7 +249,7 @@ FROM
 </details>
 
 ## Qlik Sense
-- [Qlik Sense script](Qlik_Sense_script.txt)
+- [Qlik Sense script](https://github.com/g-miroslav/Split_Timeline/blob/c6f41718cb164b311566110e07c54eb786b3dcce/Qlik_Sense_script.txt)
 
 <details>
 
