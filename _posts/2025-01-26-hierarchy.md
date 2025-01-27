@@ -1,3 +1,17 @@
+---
+layout: post
+title: Replicate Hierarchy from Qlik in SQL Server
+subtitle: Handle hierarchies with ease!
+cover-img: /assets/img/bicycle-background.jpg
+thumbnail-img: /assets/img/bicycle-bom.jpg
+share-img: /assets/img/bicycle-background.jpg
+gh-repo: username/repo
+tags: [Qlik Sense, SQL]
+comments: true
+mathjax: true
+author: Miroslav Gencur
+---
+
 ## Introduction
 [`Hierarchy`](https://help.qlik.com/en-US/sense/November2024/Subsystems/Hub/Content/Sense_Hub/Scripting/ScriptPrefixes/Hierarchy.htm) is a very useful funcion in *Qlik Sense*, that can transform a parent-child hierarchy table. A similar funcionality can be replicated with a recursive CTE in *T-SQL*. A hierarchy where a child node has a single parent can also be transformed using *Parent and Child functions*, such as [`PATH`](https://learn.microsoft.com/en-us/dax/understanding-functions-for-parent-child-hierarchies-in-dax) in *DAX* in *Power BI*, however these functions cannot handle data where a child node might have multiple parents. This is often the case with components and assemblies in a *Bill of Materials*, because a single component might be required for multiple assemblies.
 
@@ -10,11 +24,11 @@ Hierarchy (NodeID, ParentID, NodeName, [ParentName, [ParentSource, [PathName, [P
 ### input
 | NodeID | ParentID | NodeName |
 | :--- |:--- |:--- |
-|	1 |	4 |	London |
-|	2 |	3 |	Munich |
-|	3 |	5 |	Germany |
-|	4 |	5 |	UK |
-|	5 |	 |	Europe |
+| 1 | 4 | London |
+| 2 |	3 | Munich |
+| 3 |	5 | Germany |
+| 4 |	5 | UK |
+| 5 |	| Europe |
 
 ### Qlik function
 ```text
@@ -24,11 +38,11 @@ Hierarchy(NodeID, ParentID, NodeName, ParentName, NodeName, PathName, '\', Depth
 ### output
 | NodeID | ParentID | NodeName | NodeName1 | NodeName2 | NodeName3 | ParentName | PathName | Depth |
 | :--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-| 1 |	4	| London | Europe | UK | London | UK | Europe\UK\London | 3 |
-| 2	| 3	| Munich | Europe | Germany | Munich | Germany | Europe\Germany\Munich | 3 |
-| 3	| 5	| Germany | Europe | Germany | - | Europe | Europe\Germany | 2 |
-| 4	| 5	| UK | Europe | UK | - | Europe | Europe\UK | 2 |
-| 5	|	  | Europe | Europe | - | - | - | Europe | 1 |
+| 1 |	4 | London | Europe | UK | London | UK | Europe\UK\London | 3 |
+| 2 | 3 | Munich | Europe | Germany | Munich | Germany | Europe\Germany\Munich | 3 |
+| 3 | 5 | Germany | Europe | Germany | - | Europe | Europe\Germany | 2 |
+| 4 | 5 | UK | Europe | UK | - | Europe | Europe\UK | 2 |
+| 5 |	  | Europe | Europe | - | - | - | Europe | 1 |
 
 ## AdventureWorks
 This demonstration utilizes a sample dataset, that is provided by *Microsoft*, and it can be downloaded here: [`AdventureWorks`](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
