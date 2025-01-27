@@ -51,7 +51,7 @@ This demonstration utilizes a sample dataset, that is provided by *Microsoft*, a
    
 
 ### Qlik Sense
-- [Qlik Sense script](Qlik_Sense_script.txt)
+- [Qlik Sense script](https://github.com/g-miroslav/Hierarchy/blob/ebfbc40063a39eb49998e64e123bdc443adbdcf6/Qlik_Sense_script.txt)
 
 The solution is *Qlik* is fairly straight-forward as all the work is done by the `Hierarchy` function. The `BOMLevel` is adjusted by `1`, so that it aligns with the `Depth` in the output. `BOMLevel` starts at `0` and `Depth` starts counting the levels in the hierarchy at `1`.
 ```sql
@@ -75,7 +75,7 @@ WHERE
 ```
 
 ### T-SQL
-- [T-SQL query](BOM_Hierarchy.sql)
+- [T-SQL query](https://github.com/g-miroslav/Hierarchy/blob/ebfbc40063a39eb49998e64e123bdc443adbdcf6/BOM_Hierarchy.sql)
 
 #### 1. Load Data into CTE
 The first step is to load it into a CTE. This step can be omitted, but it is helpful to see, that the query is the same as in *Qlik* so far.
