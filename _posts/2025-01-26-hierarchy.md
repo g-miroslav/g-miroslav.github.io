@@ -56,7 +56,7 @@ This demonstration utilizes a sample dataset, that is provided by *Microsoft*, a
 The solution is *Qlik* is fairly straight-forward as all the work is done by the `Hierarchy` function. The `BOMLevel` is adjusted by `1`, so that it aligns with the `Depth` in the output. `BOMLevel` starts at `0` and `Depth` starts counting the levels in the hierarchy at `1`.
 ```sql
 BOM_Hierarchy:
-Hierarchy(ComponentID, ProductAssemblyID, ComponentName, AssemblyName, ComponentName, PathName, '\', Depth)
+Hierarchy(ComponentID, ProductAssemblyID, ComponentName, AssemblyName, ComponentName, PathName, ' <- ', Depth)
 SQL
 SELECT
     BillOfMaterialsID
@@ -121,7 +121,7 @@ SELECT
     , t.PerAssemblyQty
     , t.UnitMeasureCode
     , CAST(Recursive_CTE.ComponentName as varchar(50)) as AssemblyName
-    , Recursive_CTE.PathName + '\' + CAST(t.ComponentName as varchar(max)) as PathName
+    , Recursive_CTE.PathName + ' <- ' + CAST(t.ComponentName as varchar(max)) as PathName
     , Recursive_CTE.PathJson + ', "' + CAST(t.ComponentName as varchar(max)) + '"' as PathJson
     , Recursive_CTE.Depth + 1 as Depth
 FROM
