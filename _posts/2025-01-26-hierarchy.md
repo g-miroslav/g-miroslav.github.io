@@ -22,6 +22,7 @@ Hierarchy (NodeID, ParentID, NodeName, [ParentName, [ParentSource, [PathName, [P
 ```
 
 ### input
+
 | NodeID | ParentID | NodeName |
 | :--- |:--- |:--- |
 | 1 | 4 | London |
@@ -36,6 +37,7 @@ Hierarchy(NodeID, ParentID, NodeName, ParentName, NodeName, PathName, '\', Depth
 ```
 
 ### output
+
 | NodeID | ParentID | NodeName | NodeName1 | NodeName2 | NodeName3 | ParentName | PathName | Depth |
 | :--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 | 1 |	4 | London | Europe | UK | London | UK | Europe\UK\London | 3 |
