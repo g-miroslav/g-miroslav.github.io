@@ -2,9 +2,9 @@
 layout: post
 title: Replicate Hierarchy from Qlik in SQL Server
 subtitle: Handle hierarchies with ease!
-cover-img: /assets/img/bicycle-components-background.jpg
+cover-img: /assets/img/hierarchy-chart.png
 thumbnail-img: /assets/img/hierarchy-tree.png
-share-img: /assets/img/bicycle-components-background.jpg
+share-img: /assets/img/hierarchy-chart.png
 gh-repo: username/repo
 tags: [Qlik Sense, SQL]
 comments: true
