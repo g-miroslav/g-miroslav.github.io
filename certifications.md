@@ -4,6 +4,8 @@ title: Certifications
 subtitle: Certificates and courses.
 ---
 
+{: .box-note}
+TEST Box note
 ### Microsoft Fabric & Power BI
 #### Microsoft Certifications
 ``2024-12`` &emsp; [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
