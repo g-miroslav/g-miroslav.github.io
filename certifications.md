@@ -8,7 +8,6 @@ subtitle: Certificates and courses.
 
 ### Microsoft Fabric & Power BI
 #### Microsoft Certifications 
-{: .box-note}
 ``2024-12`` &emsp; [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
 ``2024-09`` &emsp; [Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)
 #### Microsoft Applied Skills
@@ -24,11 +23,12 @@ subtitle: Certificates and courses.
 ``2024-07`` &emsp; [Power Platform Functional Consultant Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/CF4F3BF927BA292?sharingId)  
 #### Course
 ``2024-01`` &emsp; [Microsoft Power Up Program](https://www.credly.com/badges/43f0c637-cbb6-4ce2-b9d6-dcfd32cdd764) - 3-month course  
-#### Microsoft Applied Skills
-{: .box-note} ``2024-12`` &emsp; [Implement AI models with Microsoft Power Platform AI Builder](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/18697DB1FE933471?sharingId)  
-{: .box-note} ``2024-08`` &emsp; [Create and manage model-driven apps with Power Apps and Dataverse](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/1F85E21F0F66C5EE?sharingId)  
-{: .box-note} ``2024-08`` &emsp; [Create and manage automated processes with Power Automate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/C24724CF9D32282?sharingId)  
-{: .box-note} ``2024-08`` &emsp; [Create and manage canvas apps with Power Apps](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/890F1E74759C19EB?sharingId)  
+#### Microsoft Applied Skills 
+{: .box-note}
+``2024-12`` &emsp; [Implement AI models with Microsoft Power Platform AI Builder](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/18697DB1FE933471?sharingId) {: .box-note}  
+``2024-08`` &emsp; [Create and manage model-driven apps with Power Apps and Dataverse](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/1F85E21F0F66C5EE?sharingId) {: .box-note}  
+``2024-08`` &emsp; [Create and manage automated processes with Power Automate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/C24724CF9D32282?sharingId) {: .box-note}  
+``2024-08`` &emsp; [Create and manage canvas apps with Power Apps](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/890F1E74759C19EB?sharingId) {: .box-note}  
 
 ***
 
