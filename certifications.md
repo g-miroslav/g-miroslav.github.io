@@ -3,20 +3,8 @@ layout: page
 title: Certifications
 subtitle: Certificates and courses.
 ---
-Three or more...
-
----
-
-Hyphens
 
 ***
-
-Asterisks
-
-___
-
-Underscores
-
 ### Microsoft Fabric & Power BI
 #### Microsoft Certifications
 ``2024-12`` &emsp; [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
@@ -26,6 +14,8 @@ Underscores
 ``2024-11`` &emsp; [Implement a data science and machine learning solution with Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/76C52E21194EE714?sharingId)  
 ``2024-11`` &emsp; [Implement a data warehouse in Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44801DB2C00AB5A3?sharingId)  
 ``2024-11`` &emsp; [Implement a Real-Time Intelligence solution with Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/FC2B5213437D5AD6?sharingId)  
+
+***
 
 ### Microsoft Power Platform
 #### Microsoft Certifications
@@ -38,6 +28,8 @@ Underscores
 ``2024-08`` &emsp; [Create and manage automated processes with Power Automate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/C24724CF9D32282?sharingId)  
 ``2024-08`` &emsp; [Create and manage canvas apps with Power Apps](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/890F1E74759C19EB?sharingId)  
 
+***
+
 ### Qlik Sense
 #### Qlik Certifications
 ``2025-02`` &emsp; [Qlik Sense Business Analyst Certification](https://www.credly.com/badges/4484b496-a1dc-4cf6-9773-e2f30a17d31c)  
@@ -47,6 +39,8 @@ Underscores
 ``2024-01`` &emsp; [Qlik Sense SaaS Business Analyst Endorsement](https://www.credly.com/badges/0f1d3585-dabb-4906-864a-a5938c3cbc4b)  
 #### Others
 ``2022-10`` &emsp; [Qlik Sense Certification – The Complete Practical Course](https://www.udemy.com/certificate/UC-bab68f48-7101-4a90-a6a2-971944b0e4b2/) – *Udemy*  
+
+***
 
 ### Databases & SQL
 ``2024-11`` &emsp; [SQL (Advanced)](https://www.hackerrank.com/certificates/d18ce7b32647) – *HackerRank*  
