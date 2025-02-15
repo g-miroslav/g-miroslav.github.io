@@ -6,6 +6,10 @@ subtitle: Certificates and courses.
 
 ***
 
+> **Grouped Text Title**
+> 
+> This is some grouped text with a custom background color.
+
 ### Microsoft Fabric & Power BI
 #### Microsoft Certifications 
 ``2024-12`` &emsp; [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
