@@ -9,3 +9,11 @@ subtitle: Certificates and courses.
 |---|---|
 | 2024-12  | [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  |
 | 2024-09  | [Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)  |
+
+## Test Table
+| Number | Next number | Previous number |
+| :------ |:--- | :--- |
+| Five | Six | Four |
+| Ten | Eleven | Nine |
+| Seven | Eight | Six |
+| Two | Three | One |
