@@ -1126,7 +1126,7 @@ pre {
 
 .grouped-text {
   background-color: #f0f0f0;
-  padding: 1px;
+  padding: 1px !important;
   border-radius: 20px;
-  margin: 0;
+  box-sizing: border-box;
 }
