@@ -6,9 +6,10 @@ subtitle: Certificates and courses.
 
 ***
 
-<div class="grouped-text">
-  
 ### Microsoft Fabric & Power BI
+
+<div class="grouped-text">
+
 #### Microsoft Certifications 
 ``2024-12`` &emsp; [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
 ``2024-09`` &emsp; [Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)
@@ -22,9 +23,10 @@ subtitle: Certificates and courses.
 
 ***
 
+### Microsoft Power Platform
+
 <div class="grouped-text">
 
-### Microsoft Power Platform
 #### Microsoft Certifications
 ``2024-07`` &emsp; [Power Platform Functional Consultant Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/CF4F3BF927BA292?sharingId)  
 #### Course
@@ -39,9 +41,10 @@ subtitle: Certificates and courses.
 
 ***
 
+### Qlik Sense
+
 <div class="grouped-text">
 
-### Qlik Sense
 #### Qlik Certifications
 ``2025-02`` &emsp; [Qlik Sense Business Analyst Certification](https://www.credly.com/badges/4484b496-a1dc-4cf6-9773-e2f30a17d31c)  
 ``2023-12`` &emsp; [Qlik Sense Business Analyst Certification- 2022](https://www.credly.com/badges/2b57b78d-df54-4b14-9408-60f22aff6e3a)  
