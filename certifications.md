@@ -6,9 +6,12 @@ subtitle: Certificates and courses.
 
 ***
 
-> **Grouped Text Title**
-> 
-> This is some grouped text with a custom background color.
+<div class="grouped-text">
+  
+  ### Grouped Text Title
+  This is some grouped text with a custom background color.
+  
+</div>
 
 ### Microsoft Fabric & Power BI
 #### Microsoft Certifications 
