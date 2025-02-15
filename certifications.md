@@ -11,12 +11,10 @@ subtitle: Certificates and courses.
 ``2024-12`` &emsp; [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
 ``2024-09`` &emsp; [Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)
 #### Microsoft Applied Skills
-{: .box-note}
 ``2024-12`` &emsp; [Implement a lakehouse in Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/DB9DE40624DA4129?sharingId)  
 ``2024-11`` &emsp; [Implement a data science and machine learning solution with Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/76C52E21194EE714?sharingId)  
 ``2024-11`` &emsp; [Implement a data warehouse in Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44801DB2C00AB5A3?sharingId)  
 ``2024-11`` &emsp; [Implement a Real-Time Intelligence solution with Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/FC2B5213437D5AD6?sharingId)  
-{: .box-note}
 ***
 
 ### Microsoft Power Platform
@@ -29,7 +27,6 @@ subtitle: Certificates and courses.
 ``2024-08`` &emsp; [Create and manage model-driven apps with Power Apps and Dataverse](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/1F85E21F0F66C5EE?sharingId)   
 ``2024-08`` &emsp; [Create and manage automated processes with Power Automate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/C24724CF9D32282?sharingId)  
 ``2024-08`` &emsp; [Create and manage canvas apps with Power Apps](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/890F1E74759C19EB?sharingId)  
-{: .box-note}
 ***
 
 ### Qlik Sense
@@ -41,7 +38,6 @@ subtitle: Certificates and courses.
 ``2024-01`` &emsp; [Qlik Sense SaaS Business Analyst Endorsement](https://www.credly.com/badges/0f1d3585-dabb-4906-864a-a5938c3cbc4b)  
 #### Others
 ``2022-10`` &emsp; [Qlik Sense Certification – The Complete Practical Course](https://www.udemy.com/certificate/UC-bab68f48-7101-4a90-a6a2-971944b0e4b2/) – *Udemy*  
-{: .box-note}
 ***
 
 ### Databases & SQL
