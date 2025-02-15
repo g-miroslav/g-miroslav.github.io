@@ -21,6 +21,8 @@ subtitle: Certificates and courses.
 
 </div>
 
+***
+
 ### Microsoft Power Platform
 
 <div class="grouped-text">
@@ -37,6 +39,8 @@ subtitle: Certificates and courses.
 
 </div>
 
+***
+
 ### Qlik Sense
 
 <div class="grouped-text">
@@ -51,6 +55,8 @@ subtitle: Certificates and courses.
 ``2022-10`` &emsp; [Qlik Sense Certification – The Complete Practical Course](https://www.udemy.com/certificate/UC-bab68f48-7101-4a90-a6a2-971944b0e4b2/) – *Udemy*  
 
 </div>
+
+***
 
 ### Databases & SQL
 ``2024-11`` &emsp; [SQL (Advanced)](https://www.hackerrank.com/certificates/d18ce7b32647) – *HackerRank*  
