@@ -131,7 +131,7 @@ FROM
 )
 ```
 #### 3. Final output table
-`T-SQL` lacks proper functionality for splitting of a string by a delimiter. A workaround I found utilizes the `JSON_VALUE`, which is able to extract a value by its index. All that is required is to add double quoutes `"` and a comma `,` between each string, and then encapsulate the result in square brackets `[` `]`. Howerver, with this approach, it is necessary to know the maximum number of levels in the Hierarchy. The function in *Qlik*, on the other hand, can dynamically determine the number of levels and it add the appropriate number of extra columns, one for each level.
+`T-SQL` lacks proper functionality for splitting of a string by a delimiter. A workaround I found utilizes the `JSON_VALUE`, which is able to extract a value by its index. All that is required is to add double quoutes `"` and a comma `,` between each string, and then encapsulate the result in square brackets `[` `]`. Howerver, with this approach, it is necessary to know the maximum number of levels in the Hierarchy. The function in *Qlik*, on the other hand, can dynamically determine the number of levels and it adds the appropriate number of extra columns, one for each level.
 ```sql
 SELECT 
     BillOfMaterialsID
