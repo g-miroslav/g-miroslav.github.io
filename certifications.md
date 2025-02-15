@@ -22,6 +22,8 @@ subtitle: Certificates and courses.
 
 ***
 
+<div class="grouped-text">
+
 ### Microsoft Power Platform
 #### Microsoft Certifications
 ``2024-07`` &emsp; [Power Platform Functional Consultant Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/CF4F3BF927BA292?sharingId)  
@@ -33,7 +35,11 @@ subtitle: Certificates and courses.
 ``2024-08`` &emsp; [Create and manage automated processes with Power Automate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/C24724CF9D32282?sharingId)  
 ``2024-08`` &emsp; [Create and manage canvas apps with Power Apps](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/890F1E74759C19EB?sharingId)  
 
+</div>
+
 ***
+
+<div class="grouped-text">
 
 ### Qlik Sense
 #### Qlik Certifications
@@ -44,6 +50,8 @@ subtitle: Certificates and courses.
 ``2024-01`` &emsp; [Qlik Sense SaaS Business Analyst Endorsement](https://www.credly.com/badges/0f1d3585-dabb-4906-864a-a5938c3cbc4b)  
 #### Others
 ``2022-10`` &emsp; [Qlik Sense Certification – The Complete Practical Course](https://www.udemy.com/certificate/UC-bab68f48-7101-4a90-a6a2-971944b0e4b2/) – *Udemy*  
+
+</div>
 
 ***
 
