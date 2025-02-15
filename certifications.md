@@ -3,9 +3,20 @@ layout: page
 title: Certifications
 subtitle: Certificates and courses.
 ---
+Three or more...
 
-{: .box-note}
-TEST Box note
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
+
 ### Microsoft Fabric & Power BI
 #### Microsoft Certifications
 ``2024-12`` &emsp; [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
