@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About me
+cover-img: /assets/img/wallpaper.jpg
 ---
 My name is **Miroslav Gencur**.
 
