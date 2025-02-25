@@ -41,6 +41,8 @@ subtitle: Certificates and courses.
 
 ***
 
+<img align="left" src="{{ '/assets/img/PowerBI_scalable.svg' | relative_url }}" alt="PowerPlatform">
+
 ### Microsoft Power Platform
 
 <div class="grouped-text">
