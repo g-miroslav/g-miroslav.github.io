@@ -62,6 +62,8 @@ subtitle: Certificates and courses.
 
 ***
 
+<img align="left" src="{{ '/assets/img/Qlik_icon.png' | relative_url }}" style="width: 40px;" alt="Qlik">
+
 ### Qlik Sense
 
 <div class="grouped-text">
@@ -80,11 +82,15 @@ subtitle: Certificates and courses.
 
 ***
 
+<img align="left" src="{{ '/assets/img/database.svg' | relative_url }}" style="width: 40px;" alt="Database">
+
 ### Databases & SQL
 ``2024-11`` &emsp; [SQL (Advanced)](https://www.hackerrank.com/certificates/d18ce7b32647) – *HackerRank*  
 ``2024-09`` &emsp; [CS50’s Introduction to Databases with SQL](https://certificates.cs50.io/b1e6af17-34e8-45b9-85b8-55356d73e2ec) – *Harvard University* – SQLite, MySQL, PostgreSQL  
 ``2023-04`` &emsp; [SQL Server 2019 Data Analytics & Tableau Data Visualisation](https://www.udemy.com/certificate/UC-32944014-7812-434b-939a-bbba9b52baac/) – *Udemy*  
 ``2023-02`` &emsp; [Relational Database](https://freecodecamp.org/certification/miroslav_gencur/relational-database-v8) – *freeCodeCamp* – PostgreSQL, Bash, Git  
+
+<img align="left" src="{{ '/assets/img/python.svg' | relative_url }}" style="width: 40px;" alt="Python">
 
 ### Python & other programming languages
 ``2024-05`` &emsp; [Foundational C# with Microsoft](https://freecodecamp.org/certification/Miroslav_Gencur/foundational-c-sharp-with-microsoft) – *freeCodeCamp*  
