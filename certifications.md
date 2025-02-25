@@ -12,9 +12,12 @@ subtitle: Certificates and courses.
 
 <div class="grouped-text">
 
-#### Microsoft Certifications 
 ``2025-02`` &emsp; [Fabric Data Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/5621F725551D3E8A?sharingId)  
 ``2024-12`` &emsp; [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
+
+</div>
+
+<div class="grouped-text">
 
 #### Microsoft Applied Skills
 ``2024-12`` &emsp; [Implement a lakehouse in Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/DB9DE40624DA4129?sharingId)  
@@ -26,13 +29,24 @@ subtitle: Certificates and courses.
 
 ***
 
+### Microsoft Power BI
+
+<div class="grouped-text">
+
+``2024-09`` &emsp; [Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)  
+
+</div>
+
 ### Microsoft Power Platform
 
 <div class="grouped-text">
 
-#### Microsoft Certifications
-``2024-09`` &emsp; [Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)  
 ``2024-07`` &emsp; [Power Platform Functional Consultant Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/CF4F3BF927BA292?sharingId)  
+
+</div>
+
+<div class="grouped-text">
+  
 #### Course
 ``2024-01`` &emsp; [Microsoft Power Up Program](https://www.credly.com/badges/43f0c637-cbb6-4ce2-b9d6-dcfd32cdd764) - 3-month course  
 #### Microsoft Applied Skills 
