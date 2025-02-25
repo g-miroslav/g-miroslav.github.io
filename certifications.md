@@ -62,7 +62,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/Qlik_icon.png' | relative_url }}" style="width: 40px;" alt="Qlik">
+<img align="left" src="{{ '/assets/img/qlik.svg' | relative_url }}" style="width: 40px;" alt="Qlik">
 
 ### Qlik Sense
 
