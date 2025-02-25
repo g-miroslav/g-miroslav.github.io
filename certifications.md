@@ -5,7 +5,8 @@ subtitle: Certificates and courses.
 ---
 
 ***
-<img align="left" src="assets/img/fabric_48_color.svg">
+
+![Fabric]({{ '/assets/img/fabric_48_color.svg' | relative_url }})
 
 ### Microsoft Fabric
 
