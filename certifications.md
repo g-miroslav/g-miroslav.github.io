@@ -8,7 +8,7 @@ subtitle: Certificates and courses.
 
 
 
-<img align="left" src="{{ '/assets/img/fabric_48_color.svg' | relative_url }}" style="width: 50x;" alt="Fabric">
+<img align="left" src="{{ '/assets/img/fabric_48_color.svg' | relative_url }}" style="width: 40x;" alt="Fabric">
 
 ### Microsoft Fabric
 
@@ -28,7 +28,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/PowerBI_scalable.svg' | relative_url }}" style="width: 50px;" alt="PowerBI">
+<img align="left" src="{{ '/assets/img/PowerBI_scalable.svg' | relative_url }}" style="width: 40px;" alt="PowerBI">
   
 ### Microsoft Power BI
 
@@ -41,7 +41,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/PowerPlatform_scalable.svg' | relative_url }}" style="width: 50px;" alt="PowerPlatform">
+<img align="left" src="{{ '/assets/img/PowerPlatform_scalable.svg' | relative_url }}" style="width: 40px;" alt="PowerPlatform">
 
 ### Microsoft Power Platform
 
