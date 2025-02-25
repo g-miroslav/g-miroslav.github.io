@@ -8,7 +8,7 @@ subtitle: Certificates and courses.
 
 
 
-<img align="left" src="{{ '/assets/img/fabric_48_color.svg' | relative_url }}" style="height: 30x;" alt="Fabric">
+<img align="left" src="{{ '/assets/img/fabric_48_color.svg' | relative_url }}" style="height: 40px;" alt="Fabric">
 
 ### Microsoft Fabric
 
@@ -28,7 +28,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/PowerBI_scalable.svg' | relative_url }}" style="height: 30px;" alt="PowerBI">
+<img align="left" src="{{ '/assets/img/PowerBI_scalable.svg' | relative_url }}" style="height: 40px;" alt="PowerBI">
   
 ### Microsoft Power BI
 
@@ -41,7 +41,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/PowerPlatform_scalable.svg' | relative_url }}" style="height: 30px;" alt="PowerPlatform">
+<img align="left" src="{{ '/assets/img/PowerPlatform_scalable.svg' | relative_url }}" style="height: 40px;" alt="PowerPlatform">
 
 ### Microsoft Power Platform
 
@@ -62,7 +62,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/qlik.svg' | relative_url }}" style="height: 30px" alt="Qlik">
+<img align="left" src="{{ '/assets/img/qlik.svg' | relative_url }}" style="height: 40px" alt="Qlik">
 
 ### Qlik Sense
 
@@ -82,7 +82,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/database.svg' | relative_url }}" style="height: 30px;" alt="Database">
+<img align="left" src="{{ '/assets/img/database.svg' | relative_url }}" style="height: 40px;" alt="Database">
 
 ### Databases & SQL
 ``2024-11`` &emsp; [SQL (Advanced)](https://www.hackerrank.com/certificates/d18ce7b32647) – *HackerRank*  
