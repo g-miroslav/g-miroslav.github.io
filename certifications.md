@@ -90,7 +90,7 @@ subtitle: Certificates and courses.
 ``2023-04`` &emsp; [SQL Server 2019 Data Analytics & Tableau Data Visualisation](https://www.udemy.com/certificate/UC-32944014-7812-434b-939a-bbba9b52baac/) – *Udemy*  
 ``2023-02`` &emsp; [Relational Database](https://freecodecamp.org/certification/miroslav_gencur/relational-database-v8) – *freeCodeCamp* – PostgreSQL, Bash, Git  
 
-<img align="left" src="{{ '/assets/img/python.svg' | relative_url }}" style="width: 40px;" alt="Python">
+<img align="left" src="{{ '/assets/img/python.svg' | relative_url }}" style="width: 30px;" alt="Python">
 
 ### Python & other programming languages
 ``2024-05`` &emsp; [Foundational C# with Microsoft](https://freecodecamp.org/certification/Miroslav_Gencur/foundational-c-sharp-with-microsoft) – *freeCodeCamp*  
