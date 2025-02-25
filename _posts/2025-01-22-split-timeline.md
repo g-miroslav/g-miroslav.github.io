@@ -181,7 +181,7 @@ SELECT
         WHEN CAST(tEnd as time) < '06:00' THEN DATEADD(hour, 6, CAST(CAST(tEnd as date) as datetime))
     END as TotalShiftEnd
 FROM 
-	Timeline
+    Timeline
 )
 ```
 #### 2. Recursive_CTE
@@ -207,7 +207,7 @@ FROM
     ShiftBoundaries_CTE as t INNER JOIN Recursive_CTE
         ON t.ID = Recursive_CTE.ID
 WHERE
-     DATEADD(hour, 8, Recursive_CTE.ShiftStart) < t.TotalShiftEnd
+    DATEADD(hour, 8, Recursive_CTE.ShiftStart) < t.TotalShiftEnd
 )
 ```
 #### 3. EventStartEnd_CTE
