@@ -93,6 +93,7 @@ subtitle: Certificates and courses.
 <img align="left" src="{{ '/assets/img/python.svg' | relative_url }}" style="height: 34px; width: 40px;" alt="Python">
 
 ### Python & other programming languages
+``2025-04`` &emsp; [Machine Learning with Python](https://freecodecamp.org/certification/Miroslav_Gencur/machine-learning-with-python-v7) – *freeCodeCamp*  
 ``2024-05`` &emsp; [Foundational C# with Microsoft](https://freecodecamp.org/certification/Miroslav_Gencur/foundational-c-sharp-with-microsoft) – *freeCodeCamp*  
 ``2023-11`` &emsp; [Applied Data Science with Python](https://www.credly.com/badges/ef6577ff-1307-4bca-9792-7ff1486fbbaf) – *IBM*  
 ``2023-11`` &emsp; [Machine Learning with Python](https://www.credly.com/badges/2812e672-03ee-450e-8920-6cc61b22f5f5) – *IBM*  
