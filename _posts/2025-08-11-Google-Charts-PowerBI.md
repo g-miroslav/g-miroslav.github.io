@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Embedding of Google Charts into Power BI
+title: Embedding Google Charts into Power BI
 subtitle: Filter and slice data of embedded Google Charts!
 cover-img: /assets/img/Google-Charts-background.jpg
 thumbnail-img: /assets/img/Google-Charts-logo.png
@@ -260,7 +260,7 @@ table td:first-child {
 
 The `CSS` adjusts the word wrap and font-weight:
 
-![Timeline tooltip without CSS](https://github.com/g-miroslav/Google-Charts-in-Power-BI/blob/main/images/Google_Timeline_html_tooltip_without_css.png) ![Timeline tooltip with CSS](https://github.com/g-miroslav/Google-Charts-in-Power-BI/blob/main/images/Google_Timeline_html_tooltip_with_css.png)
+<img src="{{ '/assets/img/Google_Timeline_html_tooltip_without_css.png' | relative_url }}" alt="Timeline tooltip without CSS"> <img src="{{ '/assets/img/Google_Timeline_html_tooltip_with_css.png' | relative_url }}" alt="Timeline tooltip with CSS">
 
 ## Important considerations/limitations
 * The method described above allows you to modify the contents of a `Google Chart` using slicers or filters. However, it is important to remember that a selection made in [`HTML Content`](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) custom visual cannot cross-highlight or filter other visuals in *Power BI*.
