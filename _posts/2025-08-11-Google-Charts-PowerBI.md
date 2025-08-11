@@ -260,7 +260,8 @@ table td:first-child {
 
 The `CSS` adjusts the word wrap and font-weight:
 
-<img src="{{ '/assets/img/Google_Timeline_html_tooltip_without_css.png' | relative_url }}" alt="Timeline tooltip without CSS"> <img src="{{ '/assets/img/Google_Timeline_html_tooltip_with_css.png' | relative_url }}" alt="Timeline tooltip with CSS">
+<img src="{{ '/assets/img/Google_Timeline_html_tooltip_without_css.png' | relative_url }}" alt="Timeline tooltip without CSS"> 
+<img src="{{ '/assets/img/Google_Timeline_html_tooltip_with_css.png' | relative_url }}" alt="Timeline tooltip with CSS">
 
 ## Important considerations/limitations
 * The method described above allows you to modify the contents of a `Google Chart` using slicers or filters. However, it is important to remember that a selection made in [`HTML Content`](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) custom visual cannot cross-highlight or filter other visuals in *Power BI*.
