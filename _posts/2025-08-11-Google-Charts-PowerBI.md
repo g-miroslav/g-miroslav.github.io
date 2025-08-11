@@ -144,7 +144,7 @@ CONCATENATEX(
 
 Now, it's possible to use slicers and filters on your data:
 
-![Timeline filtered](https://github.com/g-miroslav/Google-Charts-in-Power-BI/blob/main/images/Google_Charts_Timeline_filtered_type.png)
+<img src="{{ '/assets/img/Google_Charts_Timeline_filtered_type.png' | relative_url }}" alt="Google Charts Timeline - filtered">
 
 ## HTML tooltip
 The default tooltip only shows limited information, but it is possible to construct a tooltip from `HTML`, which allows you to display more data fields. Based on the documentation about [`Google Charts`](https://developers.google.com/chart/interactive/docs/customizing_tooltip_content), you can also embed a mini `Google Charts` graph within the tooltip. In order to enable `HTML` tooltips, some settings need to be adjusted in the code:
