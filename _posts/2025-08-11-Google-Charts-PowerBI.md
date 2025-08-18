@@ -16,7 +16,7 @@ author: Miroslav Gencur
 [`Kerry Kolosko`](https://kerrykolosko.com/embedding-charts-from-web/) created an excellent article about the embedding of `HTML` content into *Power BI*. All sorts of content can be embedded within [`HTML Content`](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) custom visual, but the most interesting are [`Google Charts`](https://developers.google.com/chart) and [`Vega-Lite`](https://vega.github.io/vega-lite/). Both of these visualization libraries offer a rich gallery of interactive charts that can extend the functionality of *Power BI*. However, there is a problem - the content of the visualizations is static. Ideally, you would want to use the data that's already loaded into *Power BI*, and any changes to filters/slicers should also be reflected in the visualizations powered by `Google Charts` and `Vega-Lite`. I will focus on `Google Charts` in this tutorial, but the same trick should also work for `Vega-Lite`.
 
 ## PBIX file
-- [Google_Timeline.pbix](https://github.com/g-miroslav/Google-Charts-in-Power-BI/blob/68f98130e5058da50a9394fce8194c993c9de44c/Google_Timeline.pbix)
+- [Google_Timeline.pbix](https://github.com/g-miroslav/Google-Charts-in-Power-BI/releases/download/pbix/Google_Timeline.pbix)
 
 ## Preparation
 Import [`HTML Content`](https://appsource.microsoft.com/en-us/product/power-bi-visuals/wa200001930?tab=overview) custom visual. ( [`HTML Content (lite)`](https://appsource.microsoft.com/en-us/product/power-bi-visuals/coacervolimited1596856650797.htmlcontent_certified?tab=Overview) won't work, because it doesn't permit loading from external URLs )
