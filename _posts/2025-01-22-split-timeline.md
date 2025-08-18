@@ -48,7 +48,7 @@ The Power BI report and Power Query M code demonstrates how to split time data i
     
 ## Power Query M
 - [Power Query M code](https://github.com/g-miroslav/Split_Timeline/blob/c6f41718cb164b311566110e07c54eb786b3dcce/Power_Query_M_Code.txt)
-- [Power BI report](https://github.com/g-miroslav/Split_Timeline/blob/c6f41718cb164b311566110e07c54eb786b3dcce/Split_Timeline.pbix)
+- [Power BI report](https://github.com/g-miroslav/Split_Timeline/releases/download/pbix/Split_Timeline.pbix)
 
 <details>
 
