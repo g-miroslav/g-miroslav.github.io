@@ -23,8 +23,8 @@ All approval requests, created in the *MS Teams Approvals app*, only allow appro
 ## Solution
 Email notifications can be turned on with a simple Power Automate flow that leverages the `dataverse` connector. 
 
-> [!IMPORTANT]
-> The Dataverse connector is premium, therefore a Power Automate license is required.
+{: .box-warning}
+The Dataverse connector is premium, therefore a Power Automate license is required.
 
 <img src="{{ '/assets/img/email_notification_flow.png' | relative_url }}" alt="Email Notification Flow">
 
