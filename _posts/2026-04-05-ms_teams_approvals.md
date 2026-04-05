@@ -3,7 +3,7 @@ layout: post
 title: How to send approval requests via email that were created in MS Teams
 subtitle: It's 2026, and people still expect emails!
 cover-img: /assets/img/ms_teams_background.avif
-thumbnail-img: /assets/img/ms_teams_approvals_logo.png
+thumbnail-img: /assets/img/ms_teams_plus_approvals_logo.png
 share-img: /assets/img/ms_teams_background.avif
 gh-repo: username/repo
 tags: [Power Automate, Approvals, MS Teams]
