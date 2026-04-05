@@ -13,29 +13,42 @@ author: Miroslav Gencur
 ---
 
 ## Introduction
-The Approvals app in MS Teams is the most straighforward tool for tracking of approval requests. It allows users to submit a request to one or several people for approval. Approval templates are used to predefine a list of approvers, approval stages, questions, or requirements for attachments.
+The *Approvals app* in *MS Teams* is the most straighforward tool for tracking of approval requests. It allows users to submit a request to one or several people for approval. Approval templates are used to predefine a list of approvers, approval stages, questions, or requirements for attachments.
 
 <img src="{{ '/assets/img/ms_teams_approvals.jpg' | relative_url }}" alt="MS Teams Approvals app">
 
 ## Problem
-All approval requests, created in the MS Teams Approvals app, only allow approvers to respond in MS Teams. No emails are sent are sent as a result of approval requests submitted via the Approvals app. Moreover, there are no settings in MS Teams that would give us the option to enable email notifications.
+All approval requests, created in the *MS Teams Approvals app*, only allow approvers to respond in *MS Teams*. No emails are sent are sent as a result of approval requests submitted via the *Approvals app*. Moreover, there are no settings in *MS Teams* that would give us the option to enable email notifications.
 
 ## Solution
-Email notifications can be turned on with a simple Power Automate flow that leverages the dataverse connector. This connector is premium, therefore a Power Automate license is required.
+Email notifications can be turned on with a simple Power Automate flow that leverages the `dataverse` connector. 
+
+> [!IMPORTANT]
+> The Dataverse connector is premium, therefore a Power Automate license is required.
 
 <img src="{{ '/assets/img/email_notification_flow.png' | relative_url }}" alt="Email Notification Flow">
 
+Filter rows:
+```text
+msdyn_flow_approval_source eq 'Approvals'
+```
+
 ### Trigger
-The trigger of the flow pickes up all approvals initiated from the Approvals app. This means that approval request started by Power Automate or SharePoint aren't affected.
+The trigger of the flow pickes up all approvals initiated from the *Approvals app*. This means that approval request started by *Power Automate* or *SharePoint* aren't affected.
 
 <img src="{{ '/assets/img/email_notification_trigger.png' | relative_url }}" alt="Email Notification Flow trigger">
 
 ### Action
-Select the approval from the trigger:
+Select the approval from the *trigger*:
 
 <img src="{{ '/assets/img/email_notification_action_param.png' | relative_url }}" alt="Email Notification Flow approval id parameter">
 
-Change the value of 'Send Email notification' field to 'Yes':
+Row ID:
+```text
+@{triggerOutputs()?['body/msdyn_flow_approvalid']}
+```
+
+Change the value of `Send Email notification` field to `Yes`:
 
 <img src="{{ '/assets/img/email_notification_action_value.png' | relative_url }}" alt="Email Notification Flow approval value">
 
