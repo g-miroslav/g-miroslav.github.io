@@ -14,9 +14,8 @@ subtitle: Certificates and courses.
 
 <div class="grouped-text">
 
-#### Microsoft Certfified:
-``2025-02`` &emsp; **DP-700** [Fabric Data Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/5621F725551D3E8A?sharingId)  
-``2024-12`` &emsp; **DP-600** [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
+``2025-02`` &emsp; **DP-700** [Microsoft Certified: Fabric Data Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/5621F725551D3E8A?sharingId)  
+``2024-12`` &emsp; **DP-600** [Microsoft Certified: Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
 
 </div> 
 
@@ -27,9 +26,8 @@ subtitle: Certificates and courses.
 ### Microsoft Power BI
 
 <div class="grouped-text">
-  
-#### Microsoft Certified:
-``2024-09`` &emsp; **PL-300** [Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)  
+
+``2024-09`` &emsp; **PL-300** [Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)  
 
 </div>
 
@@ -41,12 +39,10 @@ subtitle: Certificates and courses.
 
 <div class="grouped-text">
 
-#### Microsoft Certified:
-``2024-07`` &emsp; **PL-200** [Power Platform Functional Consultant Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/CF4F3BF927BA292?sharingId)  
+``2024-07`` &emsp; **PL-200** [Microsoft Certified: Power Platform Functional Consultant Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/CF4F3BF927BA292?sharingId)  
 
 </div>
-  
-#### Course:  
+   
 ``2024-01`` &emsp; [Microsoft Power Up Program](https://www.credly.com/badges/43f0c637-cbb6-4ce2-b9d6-dcfd32cdd764) - 3-month course  
 
 ***
@@ -57,7 +53,6 @@ subtitle: Certificates and courses.
 
 <div class="grouped-text">
 
-#### Qlik Certifications:
 ``2025-02`` &emsp; **QSBA2024** [Qlik Sense Business Analyst Certification](https://www.credly.com/badges/4484b496-a1dc-4cf6-9773-e2f30a17d31c)  
 ``2023-12`` &emsp; **QSBA2022** [Qlik Sense Business Analyst Certification- 2022](https://www.credly.com/badges/2b57b78d-df54-4b14-9408-60f22aff6e3a)  
 ``2022-11`` &emsp; **QSDA2021** [Qlik Sense Data Architect Certification- February 2021 release](https://www.credly.com/badges/2f7102d4-d3cb-4603-982a-c98602866253)
