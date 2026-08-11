@@ -8,7 +8,7 @@ subtitle: Certificates and courses.
 
 
 
-<img align="left" src="{{ '/assets/img/fabric_48_color.svg' | relative_url }}" style="height: 40px;" alt="Fabric">
+<img align="left" src="{{ '/assets/img/fabric_48_color.svg' | relative_url }}" style="height: 30px;" alt="Fabric">
 
 ### Microsoft Fabric
 
@@ -21,7 +21,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/PowerBI_scalable.svg' | relative_url }}" style="height: 40px;" alt="PowerBI">
+<img align="left" src="{{ '/assets/img/PowerBI_scalable.svg' | relative_url }}" style="height: 30px;" alt="PowerBI">
   
 ### Microsoft Power BI
 
@@ -33,7 +33,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/PowerPlatform_scalable.svg' | relative_url }}" style="height: 40px;" alt="PowerPlatform">
+<img align="left" src="{{ '/assets/img/PowerPlatform_scalable.svg' | relative_url }}" style="height: 30px;" alt="PowerPlatform">
 
 ### Microsoft Power Platform
 
@@ -47,7 +47,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/qlik.svg' | relative_url }}" style="height: 40px" alt="Qlik">
+<img align="left" src="{{ '/assets/img/qlik.svg' | relative_url }}" style="height: 30px" alt="Qlik">
 
 ### Qlik Sense
 
@@ -61,7 +61,7 @@ subtitle: Certificates and courses.
 
 ***
 
-<img align="left" src="{{ '/assets/img/database.svg' | relative_url }}" style="height: 40px" alt="Database">
+<img align="left" src="{{ '/assets/img/database.svg' | relative_url }}" style="height: 30px" alt="Database">
 
 ### Databases & SQL
 ``2024-11`` &emsp; [SQL (Advanced)](https://www.hackerrank.com/certificates/d18ce7b32647) – *HackerRank*  
@@ -69,7 +69,7 @@ subtitle: Certificates and courses.
 ``2023-04`` &emsp; [SQL Server 2019 Data Analytics & Tableau Data Visualisation](https://www.udemy.com/certificate/UC-32944014-7812-434b-939a-bbba9b52baac/) – *Udemy*  
 ``2023-02`` &emsp; [Relational Database](https://freecodecamp.org/certification/miroslav_gencur/relational-database-v8) – *freeCodeCamp* – PostgreSQL, Bash, Git  
 
-<img align="left" src="{{ '/assets/img/python.svg' | relative_url }}" style="height: 34px; width: 40px;" alt="Python">
+<img align="left" src="{{ '/assets/img/python.svg' | relative_url }}" style="height: 30px" alt="Python">
 
 ### Python & other programming languages
 ``2025-04`` &emsp; [Machine Learning with Python](https://freecodecamp.org/certification/miroslav_gencur/machine-learning-with-python-v7) – *freeCodeCamp*  
