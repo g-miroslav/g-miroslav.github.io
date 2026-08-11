@@ -18,13 +18,7 @@ subtitle: Certificates and courses.
 ``2025-02`` &emsp; [Fabric Data Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/5621F725551D3E8A?sharingId)  
 ``2024-12`` &emsp; [Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
 
-</div>
-
-#### MS Applied Skills:
-``2024-12`` &emsp; [Implement a lakehouse in Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/DB9DE40624DA4129?sharingId)  
-``2024-11`` &emsp; [Implement a data science and machine learning solution with Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/76C52E21194EE714?sharingId)  
-``2024-11`` &emsp; [Implement a data warehouse in Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44801DB2C00AB5A3?sharingId)  
-``2024-11`` &emsp; [Implement a Real-Time Intelligence solution with Microsoft Fabric](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/FC2B5213437D5AD6?sharingId)  
+</div> 
 
 ***
 
@@ -54,11 +48,6 @@ subtitle: Certificates and courses.
   
 #### Course:  
 ``2024-01`` &emsp; [Microsoft Power Up Program](https://www.credly.com/badges/43f0c637-cbb6-4ce2-b9d6-dcfd32cdd764) - 3-month course  
-#### MS Applied Skills:  
-``2024-12`` &emsp; [Implement AI models with Microsoft Power Platform AI Builder](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/18697DB1FE933471?sharingId)   
-``2024-08`` &emsp; [Create and manage model-driven apps with Power Apps and Dataverse](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/1F85E21F0F66C5EE?sharingId)   
-``2024-08`` &emsp; [Create and manage automated processes with Power Automate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/C24724CF9D32282?sharingId)  
-``2024-08`` &emsp; [Create and manage canvas apps with Power Apps](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/890F1E74759C19EB?sharingId)  
 
 ***
 
@@ -75,11 +64,6 @@ subtitle: Certificates and courses.
 
 </div>
 
-#### Qlik Endorsement:
-``2024-01`` &emsp; [Qlik Sense SaaS Business Analyst Endorsement](https://www.credly.com/badges/0f1d3585-dabb-4906-864a-a5938c3cbc4b)  
-#### Others:
-``2022-10`` &emsp; [Qlik Sense Certification – The Complete Practical Course](https://www.udemy.com/certificate/UC-bab68f48-7101-4a90-a6a2-971944b0e4b2/) – *Udemy*  
-
 ***
 
 <img align="left" src="{{ '/assets/img/database.svg' | relative_url }}" style="height: 40px" alt="Database">
@@ -94,8 +78,6 @@ subtitle: Certificates and courses.
 
 ### Python & other programming languages
 ``2025-04`` &emsp; [Machine Learning with Python](https://freecodecamp.org/certification/miroslav_gencur/machine-learning-with-python-v7) – *freeCodeCamp*  
-``2024-05`` &emsp; [Foundational C# with Microsoft](https://freecodecamp.org/certification/miroslav_gencur/foundational-c-sharp-with-microsoft) – *freeCodeCamp*  
-``2023-11`` &emsp; [Applied Data Science with Python](https://www.credly.com/badges/ef6577ff-1307-4bca-9792-7ff1486fbbaf) – *IBM*  
-``2023-11`` &emsp; [Machine Learning with Python](https://www.credly.com/badges/2812e672-03ee-450e-8920-6cc61b22f5f5) – *IBM*  
+``2024-05`` &emsp; [Foundational C# with Microsoft](https://freecodecamp.org/certification/miroslav_gencur/foundational-c-sharp-with-microsoft) – *freeCodeCamp*   
 ``2023-08`` &emsp; [Data Analysis with Python](https://freecodecamp.org/certification/miroslav_gencur/data-analysis-with-python-v7) – *freeCodeCamp*  
 ``2023-07`` &emsp; [Scientific Computing with Python](https://freecodecamp.org/certification/miroslav_gencur/scientific-computing-with-python-v7) – *freeCodeCamp*  
