@@ -10,7 +10,7 @@ subtitle: Certificates and courses.
 
 <img align="left" src="{{ '/assets/img/fabric_48_color.svg' | relative_url }}" style="height: 35px;" alt="Fabric">
 
-#### Microsoft Fabric
+### Microsoft Fabric
 
 <div class="grouped-text">
 
@@ -23,7 +23,7 @@ subtitle: Certificates and courses.
 
 <img align="left" src="{{ '/assets/img/PowerBI_scalable.svg' | relative_url }}" style="height: 35px;" alt="PowerBI">
   
-#### Microsoft Power BI
+### Microsoft Power BI
 
 <div class="grouped-text">
 
@@ -35,7 +35,7 @@ subtitle: Certificates and courses.
 
 <img align="left" src="{{ '/assets/img/PowerPlatform_scalable.svg' | relative_url }}" style="height: 35px;" alt="PowerPlatform">
 
-#### Microsoft Power Platform
+### Microsoft Power Platform
 
 <div class="grouped-text">
 
@@ -49,7 +49,7 @@ subtitle: Certificates and courses.
 
 <img align="left" src="{{ '/assets/img/qlik.svg' | relative_url }}" style="height: 35px" alt="Qlik">
 
-#### Qlik Sense
+### Qlik Sense
 
 <div class="grouped-text">
 
