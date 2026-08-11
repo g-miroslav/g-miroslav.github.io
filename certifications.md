@@ -7,15 +7,26 @@ subtitle: Certificates and courses.
 ***
 
 
-
-<img align="left" src="{{ '/assets/img/fabric_48_color.svg' | relative_url }}" style="height: 35px;" alt="Fabric">
-
-### Microsoft Fabric
+<img align="left" src="{{ '/assets/img/Microsoft_SQL_Server_2025_icon.svg' | relative_url }}" style="height: 35px;" alt="SqlServer">
+  
+### MS SQL Server
 
 <div class="grouped-text">
 
-``2025-02`` &emsp; **DP-700** [Microsoft Certified: Fabric Data Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/5621F725551D3E8A?sharingId)  
-``2024-12`` &emsp; **DP-600** [Microsoft Certified: Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
+``2026-08`` &emsp; **DP-800** [MS Certified: SQL AI Developer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/B4CB2B91F0644E?sharingId)
+
+</div>
+
+***
+
+<img align="left" src="{{ '/assets/img/fabric_48_color.svg' | relative_url }}" style="height: 35px;" alt="Fabric">
+
+### MS Fabric
+
+<div class="grouped-text">
+
+``2025-02`` &emsp; **DP-700** [MS Certified: Fabric Data Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/5621F725551D3E8A?sharingId)  
+``2024-12`` &emsp; **DP-600** [MS Certified: Fabric Analytics Engineer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/44397F0317B6D6BA?sharingId)  
 
 </div> 
 
@@ -23,11 +34,11 @@ subtitle: Certificates and courses.
 
 <img align="left" src="{{ '/assets/img/PowerBI_scalable.svg' | relative_url }}" style="height: 35px;" alt="PowerBI">
   
-### Microsoft Power BI
+### MS Power BI
 
 <div class="grouped-text">
 
-``2024-09`` &emsp; **PL-300** [Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)  
+``2024-09`` &emsp; **PL-300** [MS Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/F67FA654EBC8FB6E?sharingId)  
 
 </div>
 
@@ -39,7 +50,7 @@ subtitle: Certificates and courses.
 
 <div class="grouped-text">
 
-``2024-07`` &emsp; **PL-200** [Microsoft Certified: Power Platform Functional Consultant Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/CF4F3BF927BA292?sharingId)  
+``2024-07`` &emsp; **PL-200** [MS Certified: Power Platform Functional Consultant Associate](https://learn.microsoft.com/api/credentials/share/en-us/MiroslavGencur/CF4F3BF927BA292?sharingId)  
 
 </div>
    
@@ -69,7 +80,7 @@ subtitle: Certificates and courses.
 ``2023-04`` &emsp; [SQL Server 2019 Data Analytics & Tableau Data Visualisation](https://www.udemy.com/certificate/UC-32944014-7812-434b-939a-bbba9b52baac/) – *Udemy*  
 ``2023-02`` &emsp; [Relational Database](https://freecodecamp.org/certification/miroslav_gencur/relational-database-v8) – *freeCodeCamp* – PostgreSQL, Bash, Git  
 
-<img align="left" src="{{ '/assets/img/python.svg' | relative_url }}" style="height: 28px; width: 35px" alt="Python">
+<img align="left" src="{{ '/assets/img/python.svg' | relative_url }}" style="height: 25px; width: 35px" alt="Python">
 
 #### Python & other programming languages
 ``2025-04`` &emsp; [Machine Learning with Python](https://freecodecamp.org/certification/miroslav_gencur/machine-learning-with-python-v7) – *freeCodeCamp*  
