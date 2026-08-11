@@ -46,7 +46,7 @@ subtitle: Certificates and courses.
 
 <img align="left" src="{{ '/assets/img/PowerPlatform_scalable.svg' | relative_url }}" style="height: 35px; width: 40px;" alt="PowerPlatform">
 
-### Microsoft Power Platform
+### MS Power Platform
 
 <div class="grouped-text">
 
