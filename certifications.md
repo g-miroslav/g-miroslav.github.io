@@ -13,7 +13,7 @@ subtitle: Certificates and courses.
 
 <div class="grouped-text">
 
-``2026-08`` &emsp; **DP-800** [MS Certified: SQL AI Developer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/B4CB2B91F0644E?sharingId)
+``2026-08`` &emsp; **DP-800** [MS Certified: SQL AI Developer Associate](https://learn.microsoft.com/api/credentials/share/en-gb/MiroslavGencur/B4CB2B91F0644E?sharingId){:target="_blank" rel="noopener"}
 
 </div>
 
